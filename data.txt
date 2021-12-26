@@ -1,1 +1,3 @@
 RUN:start calc.exe
+Asdf
+Asdf
