@@ -4,22 +4,27 @@
 		<title>Operation Roll Coal</title>
 	</head>
 	<body>
-		<p>Enter filename:</p>
+		<p>Enter command:</p>
 		<input id="filename">
-		<button type="button" onclick="funct()">Run</button>
+		<button type="button" onclick="f_post()">Send</button>
+		<button type="button" onclick="f_clear()">Clear</button>
 		<p id="output"></p>
 
 		<script>
-			function funct() {
+			function f_clear() {
+			  document.getElementById("output").innerHTML = "";
+			}
+			
+			function f_post() {
 			  // Get the value of the input field with id="filename"
 			  let s = document.getElementById("filename").value;
-			  let text;
+			  let text
 			  if (s != "") {
 				text = s;
 			  } else {
 				text = "";
 			  }
-			  document.getElementById("output").innerHTML = text;
+			  document.getElementById("output").innerHTML = "&gt&gt" + text;
 			}
 		</script>
 
