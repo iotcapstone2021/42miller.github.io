@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Page Title</title>
+		<title>Operation Roll Coal</title>
 	</head>
 	<body>
-
-		<h1>This is a Heading</h1>
-		<p>This is a paragraph.</p>
-
+		<form action="data.php" method="post">
+			Run: <input type="text" name="filename"><br>
+			<input type="submit">
+		</form>
 	</body>
 </html>
