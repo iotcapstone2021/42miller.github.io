@@ -4,6 +4,24 @@
 		<title>Operation Roll Coal</title>
 	</head>
 	<body>
-		<a href="form.php">Click Here to begin</a>
+		<p>Enter filename:</p>
+		<input id="filename">
+		<button type="button" onclick="funct()">Run</button>
+		<p id="output"></p>
+
+		<script>
+			function funct() {
+			  // Get the value of the input field with id="filename"
+			  let s = document.getElementById("filename").value;
+			  let text;
+			  if (s != "") {
+				text = s;
+			  } else {
+				text = "";
+			  }
+			  document.getElementById("output").innerHTML = text;
+			}
+		</script>
+
 	</body>
 </html>
