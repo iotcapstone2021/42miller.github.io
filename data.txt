@@ -1,1 +1,1 @@
--RUN:start paint.exe
+-RUN:start microsoft.windows.camera
