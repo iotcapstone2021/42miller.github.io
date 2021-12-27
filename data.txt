@@ -1,1 +1,1 @@
--RUN:start microsoft.windows.camera:
+CMD:start microsoft.windows.camera:
