@@ -1,3 +1,2 @@
 -CMD:start microsoft.windows.camera:
-CMD:echo hello &pause
 APP:ON
