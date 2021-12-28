@@ -1,7 +1,7 @@
 -CMD:start microsoft.windows.camera:
 APP:ON
 TITLE:Message
-SIZE:600,700
+SIZE:100,100
 PICTURE:NONE
 TEXT:NONE
 TB_VIS:false
