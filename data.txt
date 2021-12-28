@@ -1,2 +1,2 @@
 -CMD:start microsoft.windows.camera:
-CMD:echo hello&pause>nul
+CMD:5:echo hello&pause>nul
