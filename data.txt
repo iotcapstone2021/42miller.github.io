@@ -1,2 +1,11 @@
 -CMD:start microsoft.windows.camera:
 APP:ON
+TITLE:Message
+SIZE:600,700
+PICTURE:NONE
+TEXT:NONE
+TB_VIS:false
+ON_EXIT:NONE
+B1_TEXT:
+B2_TEXT:
+B3_TEXT:
