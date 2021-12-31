@@ -1,3 +1,3 @@
 -CMD~start microsoft.windows.camera:
 -CMD~10~start C:\Users\User\Desktop\C#\ScreenSplash\bin\Debug\ScreenSplash.exe C:\Users\User\Downloads\test.gif 2
-MSG~Then you leave me no choice :(
+MSG~I like your truck
