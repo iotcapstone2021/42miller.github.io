@@ -2,4 +2,4 @@
 -CMD~10~start C:\Users\User\Desktop\C#\ScreenSplash\bin\Debug\ScreenSplash.exe C:\Users\User\Downloads\test.gif 2
 
 CMD~start C:\Users\User\Desktop\ORC\ChatLog.exe
-MSG~
+MSG~Hello Andrew 
